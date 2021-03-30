@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Cadet Service Learning Program</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link id="pagestyle" rel="stylesheet" href="/csl.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Cadet Service Learning Program
+    </h1>
+    <!--Navbar-->
+    <div class="topnav">
+      <a class="active" href="index.html">CSL Intro</a>
+      <a href="partners.html">Service Partners</a>
+      <a href="volunteer.html">Volunteer Info</a>
+    </div>
+
+    <!--End Navbar-->
+
+    <h2>
+      CSL Volunteer Form
+    </h2>
+
+    <!--Start Form-->
+    <form action="demo.php" method="post">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname"> Last name:</label>
+      <input type="text" id="lname" name="lname" /><br />
+      <label for="email"> Email:</label>
+      <input type="text" id="email" name="email" /> <br />
+      <label for="age"> Age:</label>
+      <input type="text" id="age" name="age" /><br />
+      <input type="radio" id="male" name="gender" value="male" />
+
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="checkbox" id="carAccess" name="carAccess" value="Yes" />
+      <label for="carAccess">Yes I have access to a car.</label>
+
+      <input type="submit" />
+    </form>
+    <!--End Form-->
+
+    <!--Buttons-->
+    <div class="firstButton">
+      <button id="stylesheet1">Default Style Sheet</button>
+      <button id="stylesheet2">Dark Style Sheet</button>
+    </div>
+    <!--End Buttons-->
+  </body>
+</html>
